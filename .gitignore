@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Full raw dataset (~41 MB) — distributed as a release asset, see data/README.md
+data/raw/*
+!data/raw/.gitkeep
+
+# Office lock / temp files
+~$*
+*.tmp
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
